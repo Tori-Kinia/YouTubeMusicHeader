@@ -1,4 +1,5 @@
-#import <UIKit/UIKit.h>
+#import <YouTubeHeader/MDCButton.h>
 
-@interface MDCButton : UIButton
+@interface MDCButton (YouTubeMusic)
+- (void)ytm_sizeToFitWithSize:(int)arg1;
 @end
